@@ -3,9 +3,8 @@ require 'net/http'
 require 'json'
 
 class GetRequester
-  attr_reader :URL
   
-  def initialize(URL)
+  def initialize
   @URL = URL
   end
   
